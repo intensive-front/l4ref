@@ -177,7 +177,7 @@ submitButton.addEventListener('click', async () => {
         return;
     }
 
-    // Формируем демо-пayload и имитируем отправку.
+    // Формируем демо-payload и имитируем отправку.
     const payload = {
         id: Math.floor(Math.random() * (100000 - 10000 + 1)) + 10000,
         customer: { name, phone, comment },
